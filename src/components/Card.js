@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import '../App.css'
 function Card(props) {
     return (
-        <div >
+        <div className="alignment">
             <Card1>
                 <Card1.Header>{props.newsItem.title}</Card1.Header>
                 <Card1.Body>
