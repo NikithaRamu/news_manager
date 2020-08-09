@@ -17,13 +17,13 @@ class Dashboard extends Component {
 
     componentDidMount() {
         console.log("i am mount")
-        const url = "https://newsapi.org/v2/top-headlines?country=in&apikey=e25f65d90b084122876987a2548155f0&page=1"
+        const url = "http://my-json-server.typicode.com/NikithaRamu/first_api/articles"
 
         fetch(url)
             .then(resp => resp.json())
             .then(data =>{
                 this.setState({
-                    newsList:data.articles
+                    newsList:data
                 })
                 console.log("this",this.state.newsList)
             }
