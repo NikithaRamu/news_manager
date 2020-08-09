@@ -17,7 +17,7 @@ class Dashboard extends Component {
 
     componentDidMount() {
         console.log("i am mount")
-        const url = "http://my-json-server.typicode.com/NikithaRamu/first_api/articles"
+        const url = "https://my-json-server.typicode.com/NikithaRamu/first_api/articles"
 
         fetch(url)
             .then(resp => resp.json())
