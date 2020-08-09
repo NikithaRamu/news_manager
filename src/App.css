@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.test{
+  text-align: center;
+  margin-left: 30%;
+  margin-right:30%;
+  margin-bottom:0.5em;
+  margin-top:0.5em;
+}
+
+.newsImg{
+  width:100%;
+  height:100%;
+  margin-bottom: 10px;
+}

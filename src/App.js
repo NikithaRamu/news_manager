@@ -1,11 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Dashboard from './components/Dashboard'
+
 
 function App() {
   return (
     <div className="App">
-     <h1>First Ever</h1>
+     <Header/>
+      <Dashboard/>
+      <Footer/>  
+
+     
     </div>
   );
 }
