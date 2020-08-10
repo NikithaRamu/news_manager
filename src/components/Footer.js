@@ -6,6 +6,7 @@ function Footer() {
         <div>
             <Navbar bg="dark" fixed="bottom" variant="dark">
            <h3>@Copyright</h3> 
+           
         </Navbar>
         </div>
     );
